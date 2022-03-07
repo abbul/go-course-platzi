@@ -1,10 +1,12 @@
 package main
 
 import (
-	"course-platzi/src/functions"
 	"fmt"
+	"go-course-platzi/src/functions"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("Run...")
+	functions.ShowStructs()
+	fmt.Println(" \n End!")
 }

@@ -1,15 +1,15 @@
 package models
 
-type brand struct {
-	name string
-	country string
+type Brand struct {
+	Name    string
+	Country string
 }
 
 // Car it's basic
 type Car struct {
-	brand brand
-	year int
-	color string
-	engine string
-	model string
+	Brand  Brand
+	Year   int
+	Color  string
+	Engine string
+	Model  string
 }
